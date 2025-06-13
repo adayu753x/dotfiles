@@ -29,6 +29,11 @@
 
 - Terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
 - Shell: [`zsh`](https://www.zsh.org/)
+- File Manager: [`ranger`](https://github.com/ranger/ranger)
+
+***What is the font that can be seen?***
+
+- [`JetBrains Mono`](https://www.jetbrains.com/lp/mono/)
 
 ***What extensions are used?***
 
