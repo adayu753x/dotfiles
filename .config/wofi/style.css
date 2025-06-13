@@ -1,0 +1,111 @@
+@import url('/home/el34,34,38,i/.cache/wal/colors-waybar.css');
+
+@define-color mauve  @color9;
+@define-color red  @color9;
+@define-color lavender  @color7;
+@define-color text  @color7;
+@keyframes fadeIn {
+    0% {
+    }
+    100% {
+    }
+}
+
+* {
+    all:unset;
+    font-family: 'Adwaita Mono', monospace;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    text-shadow:none;
+    background-color:transparent;
+    
+}
+
+window {
+    all:unset;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: rgba(5,5,5, 0g);
+}
+#inner-box {
+    margin: 2px;
+    padding: 5px
+    border: none;
+    border-radius: 0px;
+   # background-color: rgba(34,34,38, 0.80);
+}
+#outer-box {    
+    border: none;
+}
+#scroll {
+    margin: 0px;
+    padding: 30px;
+    border: none;
+}
+#input {
+    all:unset;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: @text;
+    box-shadow: 1px 1px 5px rgba(5,5,5, .1);
+    border-radius:0;
+   # background-color: alpha(@background,.2);
+    background-color: rgba(255,255,255, 0.1);
+}
+#input image {
+    border: none;
+    color: @red;
+    padding-right:10px;
+}
+#input * {
+    border: none;
+    outline: none;
+}
+
+#input:focus {
+    outline: none;
+    border: none;
+
+    border-radius:10;
+}
+#text {
+    margin: 5px;
+    border: none;
+    color: @text;
+    outline: none;
+}
+#text {
+    margin: 5px;
+    border: none;
+    color: @text;
+    outline: none;
+}
+#entry {
+    border: none;
+    margin: 5px;
+    padding: 10px;
+}
+#entry arrow {
+    border: none;
+    color: @lavender;
+
+}
+#entry:selected {
+   # box-shadow: 1px 1px 5px rgba(100,100,100, .03);
+    box-shadow: 1px 1px 5px rgba(5,5,5, .1);
+    border: none;
+    border-radius: 0px;
+   # background-color: rgba(60,60,60, 0.90);
+    background-color: rgba(255,255,255, 0.1);
+}
+#entry:selected #text {
+    color: @mauve;
+}
+#entry:drop(active) {
+    background-color: @lavender !important;
+}

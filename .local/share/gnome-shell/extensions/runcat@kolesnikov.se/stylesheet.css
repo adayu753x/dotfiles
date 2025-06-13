@@ -1,0 +1,10 @@
+.runcat-menu__icon {
+    padding: 0 .5em 0 0;
+    icon-size: 2em;
+}
+
+.runcat-menu__label {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
